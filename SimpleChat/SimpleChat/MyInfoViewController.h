@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MyInfoViewController.h
 //  SimpleChat
 //
 //  Created by Javen on 15/4/24.
@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FirstViewController : UIViewController
+@interface MyInfoViewController : UIViewController
 
 
 @end

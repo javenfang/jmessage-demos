@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ConversationViewController.h
 //  SimpleChat
 //
 //  Created by Javen on 15/4/24.
@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SecondViewController : UIViewController
+@interface ConversationViewController : UIViewController
 
 
 @end

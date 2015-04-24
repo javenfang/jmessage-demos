@@ -1,5 +1,5 @@
 //
-//  SecondViewController.m
+//  MyInfoViewController.m
 //  SimpleChat
 //
 //  Created by Javen on 15/4/24.
@@ -7,14 +7,14 @@
 //
 
 
-#import "SecondViewController.h"
+#import "MyInfoViewController.h"
 
 
-@interface SecondViewController ()
+@interface MyInfoViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation MyInfoViewController
 
 
 - (void)viewDidLoad {

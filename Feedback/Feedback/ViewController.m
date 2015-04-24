@@ -1,20 +1,20 @@
 //
-//  FirstViewController.m
-//  SimpleChat
+//  ViewController.m
+//  Feedback
 //
 //  Created by Javen on 15/4/24.
 //  Copyright (c) 2015 HEXG. All rights reserved.
 //
 
 
-#import "FirstViewController.h"
+#import "ViewController.h"
 
 
-@interface FirstViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation ViewController
 
 
 - (void)viewDidLoad {
