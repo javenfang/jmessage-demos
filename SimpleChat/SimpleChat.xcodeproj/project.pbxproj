@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6039B020D2E976B288E741B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6039B5E6AA1864E3F47B4E00 /* Main.storyboard */; };
+		6039B04F9C81E58E127C0F81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6039BE5BE14336E7589BDB16 /* Images.xcassets */; };
+		6039B1D1E145994549C92FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B4F80F9B535E77140A7D /* AppDelegate.m */; };
+		6039B2552326D3D3508B3637 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B84BAD19294ED3751D12 /* SecondViewController.m */; };
+		6039B26500741DB59D206240 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B997BA0291EBDF3EB787 /* FirstViewController.m */; };
+		6039B268C6B31025B1A2F462 /* SimpleChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B36F729CA516C12B6A96 /* SimpleChatTests.m */; };
+		6039B3946D8007AA8C6E562A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6039BDF6D5EFB9153A711A11 /* LaunchScreen.xib */; };
+		6039B8D878BC2A82028168E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B3776AB5FE14FE8AF75A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6039BA8CAB9B2DD9EAF7550C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6039B875C70C277DFCC18509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6039B5D73354C08BD6CC7821;
+			remoteInfo = SimpleChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6039B36F729CA516C12B6A96 /* SimpleChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleChatTests.m; sourceTree = "<group>"; };
+		6039B37367B1A86C032F3FE3 /* SimpleChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6039B3776AB5FE14FE8AF75A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6039B4827949F64CE4C2F8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6039B4F80F9B535E77140A7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6039B514994378A063421B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6039B7FE7E62CF4BA7E5D74E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6039B81291F41558EB5834FA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6039B84BAD19294ED3751D12 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6039B997BA0291EBDF3EB787 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6039BA4A153D402F7053C5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6039BAF92D0ADC4C544A7CAA /* SimpleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6039BE277779F09D11670414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6039BE5BE14336E7589BDB16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6039BE9E78DBFC88F9925472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6039B487C7F87FE38DAD278F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6039B581655D1A52494892F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6039B60A93E6472E0EDC282E /* SimpleChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				6039B69969A44E94CD48F7C1 /* Supporting Files */,
+				6039B36F729CA516C12B6A96 /* SimpleChatTests.m */,
+			);
+			path = SimpleChatTests;
+			sourceTree = "<group>";
+		};
+		6039B69969A44E94CD48F7C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6039BA4A153D402F7053C5D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6039B69A23FC01D03E3E7E2E = {
+			isa = PBXGroup;
+			children = (
+				6039BD2717357409A6E99E2E /* Products */,
+				6039B764018FCAE58618565E /* SimpleChat */,
+				6039B60A93E6472E0EDC282E /* SimpleChatTests */,
+			);
+			sourceTree = "<group>";
+		};
+		6039B764018FCAE58618565E /* SimpleChat */ = {
+			isa = PBXGroup;
+			children = (
+				6039BCE702BE60E183091945 /* Supporting Files */,
+				6039BE5BE14336E7589BDB16 /* Images.xcassets */,
+				6039BDF6D5EFB9153A711A11 /* LaunchScreen.xib */,
+				6039BE9E78DBFC88F9925472 /* AppDelegate.h */,
+				6039B4F80F9B535E77140A7D /* AppDelegate.m */,
+				6039B5E6AA1864E3F47B4E00 /* Main.storyboard */,
+				6039B7FE7E62CF4BA7E5D74E /* FirstViewController.h */,
+				6039B997BA0291EBDF3EB787 /* FirstViewController.m */,
+				6039B81291F41558EB5834FA /* SecondViewController.h */,
+				6039B84BAD19294ED3751D12 /* SecondViewController.m */,
+			);
+			path = SimpleChat;
+			sourceTree = "<group>";
+		};
+		6039BCE702BE60E183091945 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6039B514994378A063421B28 /* Info.plist */,
+				6039B3776AB5FE14FE8AF75A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6039BD2717357409A6E99E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6039BAF92D0ADC4C544A7CAA /* SimpleChat.app */,
+				6039B37367B1A86C032F3FE3 /* SimpleChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6039B1D41E2AB2F7883C98F9 /* SimpleChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6039BD226E89C998ACD8154D /* Build configuration list for PBXNativeTarget "SimpleChatTests" */;
+			buildPhases = (
+				6039B53D642745B14F9E5205 /* Sources */,
+				6039B487C7F87FE38DAD278F /* Frameworks */,
+				6039B1536534378344EFBE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6039B01D25CC67AB8D3ADAE8 /* PBXTargetDependency */,
+			);
+			name = SimpleChatTests;
+			productName = SimpleChatTests;
+			productReference = 6039B37367B1A86C032F3FE3 /* SimpleChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6039B5D73354C08BD6CC7821 /* SimpleChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6039B48C5D17136904F61238 /* Build configuration list for PBXNativeTarget "SimpleChat" */;
+			buildPhases = (
+				6039BFD2C9CD652EC702C173 /* Sources */,
+				6039B581655D1A52494892F2 /* Frameworks */,
+				6039BEC61F5A8A7E8499745F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleChat;
+			productName = SimpleChat;
+			productReference = 6039BAF92D0ADC4C544A7CAA /* SimpleChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6039B875C70C277DFCC18509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = HEXG;
+			};
+			buildConfigurationList = 6039B9BEE90D9C79E0C78591 /* Build configuration list for PBXProject "SimpleChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6039B69A23FC01D03E3E7E2E;
+			productRefGroup = 6039BD2717357409A6E99E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6039B5D73354C08BD6CC7821 /* SimpleChat */,
+				6039B1D41E2AB2F7883C98F9 /* SimpleChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6039B1536534378344EFBE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6039BEC61F5A8A7E8499745F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6039B04F9C81E58E127C0F81 /* Images.xcassets in Resources */,
+				6039B3946D8007AA8C6E562A /* LaunchScreen.xib in Resources */,
+				6039B020D2E976B288E741B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6039B53D642745B14F9E5205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6039B268C6B31025B1A2F462 /* SimpleChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6039BFD2C9CD652EC702C173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6039B8D878BC2A82028168E6 /* main.m in Sources */,
+				6039B1D1E145994549C92FC0 /* AppDelegate.m in Sources */,
+				6039B26500741DB59D206240 /* FirstViewController.m in Sources */,
+				6039B2552326D3D3508B3637 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6039B01D25CC67AB8D3ADAE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6039B5D73354C08BD6CC7821 /* SimpleChat */;
+			targetProxy = 6039BA8CAB9B2DD9EAF7550C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6039B5E6AA1864E3F47B4E00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6039BE277779F09D11670414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6039BDF6D5EFB9153A711A11 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6039B4827949F64CE4C2F8E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6039B3EF26AC774065DD0C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6039B78A533784F81431047E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6039B9D062AD147567D81DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6039B9DD263FD1FBB5BBDD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleChat.app/SimpleChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		6039BAB5FA571C8E0630980C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleChat.app/SimpleChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		6039BB5BD0556FE8592898F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6039B48C5D17136904F61238 /* Build configuration list for PBXNativeTarget "SimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6039B9D062AD147567D81DC7 /* Debug */,
+				6039BB5BD0556FE8592898F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6039B9BEE90D9C79E0C78591 /* Build configuration list for PBXProject "SimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6039B78A533784F81431047E /* Debug */,
+				6039B3EF26AC774065DD0C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6039BD226E89C998ACD8154D /* Build configuration list for PBXNativeTarget "SimpleChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6039BAB5FA571C8E0630980C /* Debug */,
+				6039B9DD263FD1FBB5BBDD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6039B875C70C277DFCC18509 /* Project object */;
+}
