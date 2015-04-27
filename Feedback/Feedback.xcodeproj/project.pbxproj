@@ -10,9 +10,10 @@
 		6039B14282AB589D6476BA4B /* Feedback.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6039B646C4DF2F961545ADC5 /* Feedback.xcdatamodeld */; };
 		6039B3044A641E650FD87DA1 /* FeedbackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039BE6EE55ADA168E5BBAD8 /* FeedbackTests.m */; };
 		6039B6EABF711F799DF327DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B435125CE89D93D5733A /* AppDelegate.m */; };
+		6039B6F9682820D44A9DBD36 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039BEFF27EC218DDCB00A4D /* ChatViewController.m */; };
 		6039B7038C8F5642B165069F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B8D37F35BD8060FE311A /* main.m */; };
 		6039BC1282E19B6AF407EAC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6039BFFB1626A729A96E65F6 /* Images.xcassets */; };
-		6039BE3DD097C301E107AAE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B3C06AF5539C001C63ED /* ViewController.m */; };
+		6039BE3DD097C301E107AAE6 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B3C06AF5539C001C63ED /* DemoViewController.m */; };
 		6039BE920574F42F310CE171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6039BE45A74DF60DCD115DA6 /* Main.storyboard */; };
 		6039BF08F9E70E354C1AF784 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6039B37B8AA5FAB6D61D5CE6 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
@@ -29,18 +30,20 @@
 
 /* Begin PBXFileReference section */
 		6039B1265DEA5B73F9A6A5F6 /* Feedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6039B3C06AF5539C001C63ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6039B3F1ED940EA4A7A472F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6039B3C06AF5539C001C63ED /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		6039B3F1ED940EA4A7A472F5 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		6039B435125CE89D93D5733A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6039B66EE68CA19A8BA2A7DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6039B87E42201D82EC6211AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		6039B8D37F35BD8060FE311A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6039B958F2908AB79595233F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		6039BAE52B3E2573632E95B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6039BAF9BF713508F9B38A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		6039BBA47A2D9DB0DA44F7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6039BDD28A6BF1FC5F50C5F7 /* FeedbackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedbackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6039BE6EE55ADA168E5BBAD8 /* FeedbackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbackTests.m; sourceTree = "<group>"; };
 		6039BEF523CE5BB58CD71F3A /* Feedback.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Feedback.xcdatamodel; sourceTree = "<group>"; };
+		6039BEFF27EC218DDCB00A4D /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		6039BFFB1626A729A96E65F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,8 +119,10 @@
 				6039B435125CE89D93D5733A /* AppDelegate.m */,
 				6039B646C4DF2F961545ADC5 /* Feedback.xcdatamodeld */,
 				6039BE45A74DF60DCD115DA6 /* Main.storyboard */,
-				6039B3F1ED940EA4A7A472F5 /* ViewController.h */,
-				6039B3C06AF5539C001C63ED /* ViewController.m */,
+				6039B3F1ED940EA4A7A472F5 /* DemoViewController.h */,
+				6039B3C06AF5539C001C63ED /* DemoViewController.m */,
+				6039BEFF27EC218DDCB00A4D /* ChatViewController.m */,
+				6039B958F2908AB79595233F /* ChatViewController.h */,
 			);
 			path = Feedback;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 		6039B5D3C329BF012630A5B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JMSGFB;
 				ORGANIZATIONNAME = HEXG;
 			};
 			buildConfigurationList = 6039B64925434CCDD26438D8 /* Build configuration list for PBXProject "Feedback" */;
@@ -222,7 +228,8 @@
 				6039B7038C8F5642B165069F /* main.m in Sources */,
 				6039B6EABF711F799DF327DC /* AppDelegate.m in Sources */,
 				6039B14282AB589D6476BA4B /* Feedback.xcdatamodeld in Sources */,
-				6039BE3DD097C301E107AAE6 /* ViewController.m in Sources */,
+				6039BE3DD097C301E107AAE6 /* DemoViewController.m in Sources */,
+				6039B6F9682820D44A9DBD36 /* ChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

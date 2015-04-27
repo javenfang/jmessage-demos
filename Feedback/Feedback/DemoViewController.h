@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DemoViewController.h
 //  Feedback
 //
 //  Created by Javen on 15/4/24.
@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ViewController : UIViewController
+@interface DemoViewController : UIViewController
 
 
 @end
