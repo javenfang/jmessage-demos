@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6039B06A635F37A9F86E0B04 /* JMFBRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B6899772937E0E1D6830 /* JMFBRegisterViewController.m */; };
+		6039B08EE811C66A8B1F6CB3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B82B0E8FD1E25689F87E /* CoreTelephony.framework */; };
+		6039B0B4DF15D8E3AAED6162 /* JMFBMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B9A6D94531C1710F3A96 /* JMFBMyAdditions.m */; };
 		6039B14282AB589D6476BA4B /* Feedback.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6039B646C4DF2F961545ADC5 /* Feedback.xcdatamodeld */; };
+		6039B22D898604F59A74DEE0 /* JMFBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039BEA78591C7D3408DE1F3 /* JMFBDemoViewController.m */; };
 		6039B3044A641E650FD87DA1 /* FeedbackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039BE6EE55ADA168E5BBAD8 /* FeedbackTests.m */; };
+		6039B4C9C6F10D07AF891CDC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B2D6DF4CDD0D14B8D660 /* CFNetwork.framework */; };
+		6039B52B5AB89D19F6AFA345 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039BAA00F48C885AFB8AA9C /* CoreFoundation.framework */; };
+		6039B55AFD0CCA7902794D66 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B6AD173436BB71B14438 /* libsqlite3.dylib */; };
+		6039B5DE71BF3EC46E3B39A3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B4764B4C94742E8BEEC8 /* libz.dylib */; };
+		6039B62B25A0B79F4A14E110 /* TestStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6039BC74654129206D5FCAAD /* TestStoryboard.storyboard */; };
 		6039B6EABF711F799DF327DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B435125CE89D93D5733A /* AppDelegate.m */; };
-		6039B6F9682820D44A9DBD36 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039BEFF27EC218DDCB00A4D /* ChatViewController.m */; };
 		6039B7038C8F5642B165069F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B8D37F35BD8060FE311A /* main.m */; };
+		6039B8217663B3C9BA55A7B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B1B6817E4F4996C1903D /* CoreData.framework */; };
+		6039BBFAD45D9E92FEBA52D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039BCA2B59A78A0124FB17F /* Security.framework */; };
+		6039BC1031C317106D3881B2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039BAA00F48C885AFB8AA9C /* CoreFoundation.framework */; };
 		6039BC1282E19B6AF407EAC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6039BFFB1626A729A96E65F6 /* Images.xcassets */; };
-		6039BE3DD097C301E107AAE6 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B3C06AF5539C001C63ED /* DemoViewController.m */; };
+		6039BC3D677F0345C613719E /* jmessage-ios-1.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B6152C527E7170D408BC /* jmessage-ios-1.0.1.a */; };
+		6039BCD9598A70850938D4B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B336BED10BC36CF76EA2 /* CoreGraphics.framework */; };
+		6039BD49180C377CC1E95F12 /* JMFBChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6039B77A2B985BF62E6D50FD /* JMFBChatViewController.m */; };
 		6039BE920574F42F310CE171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6039BE45A74DF60DCD115DA6 /* Main.storyboard */; };
+		6039BEA154B7DDF296004664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B0B3A0A93AF2F72858FB /* Foundation.framework */; };
 		6039BF08F9E70E354C1AF784 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6039B37B8AA5FAB6D61D5CE6 /* LaunchScreen.xib */; };
+		6039BF490C11F28186B999BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B665FFE0150DB866E971 /* SystemConfiguration.framework */; };
+		6039BFBC7F8D37302146C5CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039B1F433AFCB25C2ED2947 /* UIKit.framework */; };
+		BEEACA2D16D65ED1A22B07B3 /* libPods-Feedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B97C96B3646CAA95EC70D60 /* libPods-Feedback.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,22 +46,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A4951D02F2410062F6F76B /* Pods-Feedback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feedback.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feedback/Pods-Feedback.release.xcconfig"; sourceTree = "<group>"; };
+		1B97C96B3646CAA95EC70D60 /* libPods-Feedback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Feedback.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6039B0B3A0A93AF2F72858FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6039B1265DEA5B73F9A6A5F6 /* Feedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6039B3C06AF5539C001C63ED /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
-		6039B3F1ED940EA4A7A472F5 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		6039B1A7D3B371B57900ABEB /* JMSGService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGService.h; sourceTree = "<group>"; };
+		6039B1B6817E4F4996C1903D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6039B1F433AFCB25C2ED2947 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6039B2D6DF4CDD0D14B8D660 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6039B2EFF8D897EDCABC11B8 /* JMFBMyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFBMyAdditions.h; sourceTree = "<group>"; };
+		6039B336BED10BC36CF76EA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6039B369077CC27CA06F081E /* JMSGMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGMessage.h; sourceTree = "<group>"; };
 		6039B435125CE89D93D5733A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6039B4764B4C94742E8BEEC8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6039B58B3DB496A05BEFD024 /* JMSGConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGConversation.h; sourceTree = "<group>"; };
+		6039B6152C527E7170D408BC /* jmessage-ios-1.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "jmessage-ios-1.0.1.a"; path = "../../../../../Downloads/IM Lib包(build100)/jmessage-ios-1.0.1.a"; sourceTree = "<group>"; };
+		6039B64E86B117ACE33346F9 /* JMSGBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGBridge.h; sourceTree = "<group>"; };
+		6039B665FFE0150DB866E971 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6039B66EE68CA19A8BA2A7DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6039B6899772937E0E1D6830 /* JMFBRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFBRegisterViewController.m; sourceTree = "<group>"; };
+		6039B6AD173436BB71B14438 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6039B6CAB4F8ED7767067FD3 /* JMSGMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGMessageManager.h; sourceTree = "<group>"; };
+		6039B77A2B985BF62E6D50FD /* JMFBChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFBChatViewController.m; sourceTree = "<group>"; };
+		6039B7AC57F13D3CC67863E4 /* JMSGConversationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGConversationModel.h; sourceTree = "<group>"; };
+		6039B7C3C138C6367763E2E8 /* JMFBChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFBChatViewController.h; sourceTree = "<group>"; };
+		6039B7C9B3907675A3A052CA /* JMSGBridgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGBridgeProtocol.h; sourceTree = "<group>"; };
+		6039B82B0E8FD1E25689F87E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		6039B87E42201D82EC6211AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		6039B8D37F35BD8060FE311A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6039B958F2908AB79595233F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		6039B91FA8DF0A1107A57867 /* JMSGConversationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGConversationManager.h; sourceTree = "<group>"; };
+		6039B9A6D94531C1710F3A96 /* JMFBMyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFBMyAdditions.m; sourceTree = "<group>"; };
+		6039BA137839491A93C2C1EC /* JMSGCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGCommon.h; sourceTree = "<group>"; };
+		6039BAA00F48C885AFB8AA9C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6039BAB1478C2DFDF78A53A8 /* JMFBRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFBRegisterViewController.h; sourceTree = "<group>"; };
 		6039BAE52B3E2573632E95B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6039BAF9BF713508F9B38A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6039BAFCD743A497DAED1B5D /* JMSGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGUser.h; sourceTree = "<group>"; };
+		6039BB610CA1C44F6CFAE9CD /* JMSGConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGConfig.h; sourceTree = "<group>"; };
+		6039BB86E98D49FDE6D04096 /* JMFBConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFBConfig.h; sourceTree = "<group>"; };
 		6039BBA47A2D9DB0DA44F7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6039BC74654129206D5FCAAD /* TestStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestStoryboard.storyboard; sourceTree = "<group>"; };
+		6039BCA2B59A78A0124FB17F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6039BDD28A6BF1FC5F50C5F7 /* FeedbackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedbackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6039BDF1280F93F9538AC146 /* JMSGIMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGIMRequest.h; sourceTree = "<group>"; };
 		6039BE6EE55ADA168E5BBAD8 /* FeedbackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbackTests.m; sourceTree = "<group>"; };
+		6039BEA78591C7D3408DE1F3 /* JMFBDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFBDemoViewController.m; sourceTree = "<group>"; };
+		6039BEE125056030DD38BCFD /* JMSGUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGUserManager.h; sourceTree = "<group>"; };
 		6039BEF523CE5BB58CD71F3A /* Feedback.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Feedback.xcdatamodel; sourceTree = "<group>"; };
-		6039BEFF27EC218DDCB00A4D /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		6039BFA5A55288C13B0EBBD1 /* JMFBDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFBDemoViewController.h; sourceTree = "<group>"; };
 		6039BFFB1626A729A96E65F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B160C01894229EC7B21CBD40 /* Pods-Feedback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feedback.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feedback/Pods-Feedback.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +110,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6039BC3D677F0345C613719E /* jmessage-ios-1.0.1.a in Frameworks */,
+				6039B4C9C6F10D07AF891CDC /* CFNetwork.framework in Frameworks */,
+				6039BC1031C317106D3881B2 /* CoreFoundation.framework in Frameworks */,
+				6039B52B5AB89D19F6AFA345 /* CoreFoundation.framework in Frameworks */,
+				6039B08EE811C66A8B1F6CB3 /* CoreTelephony.framework in Frameworks */,
+				6039BF490C11F28186B999BD /* SystemConfiguration.framework in Frameworks */,
+				6039BCD9598A70850938D4B0 /* CoreGraphics.framework in Frameworks */,
+				6039BEA154B7DDF296004664 /* Foundation.framework in Frameworks */,
+				6039BFBC7F8D37302146C5CD /* UIKit.framework in Frameworks */,
+				6039BBFAD45D9E92FEBA52D7 /* Security.framework in Frameworks */,
+				6039B5DE71BF3EC46E3B39A3 /* libz.dylib in Frameworks */,
+				6039B8217663B3C9BA55A7B1 /* CoreData.framework in Frameworks */,
+				6039B55AFD0CCA7902794D66 /* libsqlite3.dylib in Frameworks */,
+				BEEACA2D16D65ED1A22B07B3 /* libPods-Feedback.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +136,9 @@
 				6039B41BBCFC1641CF2A5CC6 /* Products */,
 				6039BCD0A020FAADD2C61662 /* Feedback */,
 				6039B2D9A5F1EDB363C5ED9E /* FeedbackTests */,
+				6039BA2CACE3BD27F127E13C /* Libs */,
+				6039BE29F29AC68F146ED0AE /* Frameworks */,
+				8B029ECB9027DD7E125362EB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +156,7 @@
 			children = (
 				6039BC0C55C6CA204A74498A /* Supporting Files */,
 				6039BE6EE55ADA168E5BBAD8 /* FeedbackTests.m */,
+				6039BC74654129206D5FCAAD /* TestStoryboard.storyboard */,
 			);
 			path = FeedbackTests;
 			sourceTree = "<group>";
@@ -99,6 +168,47 @@
 				6039BDD28A6BF1FC5F50C5F7 /* FeedbackTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6039B88BC5F8E37CF7CC01BD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6039B8A80C5435722CC8EF40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6039B77A2B985BF62E6D50FD /* JMFBChatViewController.m */,
+				6039B6899772937E0E1D6830 /* JMFBRegisterViewController.m */,
+				6039BFA5A55288C13B0EBBD1 /* JMFBDemoViewController.h */,
+				6039BEA78591C7D3408DE1F3 /* JMFBDemoViewController.m */,
+				6039BAB1478C2DFDF78A53A8 /* JMFBRegisterViewController.h */,
+				6039B7C3C138C6367763E2E8 /* JMFBChatViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6039BA2CACE3BD27F127E13C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				6039B6152C527E7170D408BC /* jmessage-ios-1.0.1.a */,
+				6039B58B3DB496A05BEFD024 /* JMSGConversation.h */,
+				6039B369077CC27CA06F081E /* JMSGMessage.h */,
+				6039BA137839491A93C2C1EC /* JMSGCommon.h */,
+				6039BEE125056030DD38BCFD /* JMSGUserManager.h */,
+				6039B7AC57F13D3CC67863E4 /* JMSGConversationModel.h */,
+				6039BAFCD743A497DAED1B5D /* JMSGUser.h */,
+				6039B91FA8DF0A1107A57867 /* JMSGConversationManager.h */,
+				6039B1A7D3B371B57900ABEB /* JMSGService.h */,
+				6039B6CAB4F8ED7767067FD3 /* JMSGMessageManager.h */,
+				6039B7C9B3907675A3A052CA /* JMSGBridgeProtocol.h */,
+				6039B64E86B117ACE33346F9 /* JMSGBridge.h */,
+				6039BB610CA1C44F6CFAE9CD /* JMSGConfig.h */,
+				6039BDF1280F93F9538AC146 /* JMSGIMRequest.h */,
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 		6039BC0C55C6CA204A74498A /* Supporting Files */ = {
@@ -119,12 +229,41 @@
 				6039B435125CE89D93D5733A /* AppDelegate.m */,
 				6039B646C4DF2F961545ADC5 /* Feedback.xcdatamodeld */,
 				6039BE45A74DF60DCD115DA6 /* Main.storyboard */,
-				6039B3F1ED940EA4A7A472F5 /* DemoViewController.h */,
-				6039B3C06AF5539C001C63ED /* DemoViewController.m */,
-				6039BEFF27EC218DDCB00A4D /* ChatViewController.m */,
-				6039B958F2908AB79595233F /* ChatViewController.h */,
+				6039BB86E98D49FDE6D04096 /* JMFBConfig.h */,
+				6039B88BC5F8E37CF7CC01BD /* Category */,
+				6039B8A80C5435722CC8EF40 /* Controller */,
+				6039B9A6D94531C1710F3A96 /* JMFBMyAdditions.m */,
+				6039B2EFF8D897EDCABC11B8 /* JMFBMyAdditions.h */,
 			);
 			path = Feedback;
+			sourceTree = "<group>";
+		};
+		6039BE29F29AC68F146ED0AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6039B2D6DF4CDD0D14B8D660 /* CFNetwork.framework */,
+				6039BAA00F48C885AFB8AA9C /* CoreFoundation.framework */,
+				6039B82B0E8FD1E25689F87E /* CoreTelephony.framework */,
+				6039B665FFE0150DB866E971 /* SystemConfiguration.framework */,
+				6039B336BED10BC36CF76EA2 /* CoreGraphics.framework */,
+				6039B0B3A0A93AF2F72858FB /* Foundation.framework */,
+				6039B1F433AFCB25C2ED2947 /* UIKit.framework */,
+				6039BCA2B59A78A0124FB17F /* Security.framework */,
+				6039B4764B4C94742E8BEEC8 /* libz.dylib */,
+				6039B1B6817E4F4996C1903D /* CoreData.framework */,
+				6039B6AD173436BB71B14438 /* libsqlite3.dylib */,
+				1B97C96B3646CAA95EC70D60 /* libPods-Feedback.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B029ECB9027DD7E125362EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B160C01894229EC7B21CBD40 /* Pods-Feedback.debug.xcconfig */,
+				02A4951D02F2410062F6F76B /* Pods-Feedback.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6039B505F51A7CF1832DDB9E /* Build configuration list for PBXNativeTarget "Feedback" */;
 			buildPhases = (
+				DCB7BAB8A500A3B1F067CB00 /* Check Pods Manifest.lock */,
 				6039BF665A7C1F08797A0E3E /* Sources */,
 				6039BD49031398B1E2F0BAB1 /* Frameworks */,
 				6039B9D7C7593358140A22E0 /* Resources */,
+				2847FD1150F421BC6C634584 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,7 +312,7 @@
 		6039B5D3C329BF012630A5B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = JMSGFB;
+				CLASSPREFIX = JMFB;
 				ORGANIZATIONNAME = HEXG;
 			};
 			buildConfigurationList = 6039B64925434CCDD26438D8 /* Build configuration list for PBXProject "Feedback" */;
@@ -207,10 +348,44 @@
 				6039BC1282E19B6AF407EAC8 /* Images.xcassets in Resources */,
 				6039BF08F9E70E354C1AF784 /* LaunchScreen.xib in Resources */,
 				6039BE920574F42F310CE171 /* Main.storyboard in Resources */,
+				6039B62B25A0B79F4A14E110 /* TestStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2847FD1150F421BC6C634584 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feedback/Pods-Feedback-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB7BAB8A500A3B1F067CB00 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6039B0AEFF2994EB1B66E49B /* Sources */ = {
@@ -228,8 +403,10 @@
 				6039B7038C8F5642B165069F /* main.m in Sources */,
 				6039B6EABF711F799DF327DC /* AppDelegate.m in Sources */,
 				6039B14282AB589D6476BA4B /* Feedback.xcdatamodeld in Sources */,
-				6039BE3DD097C301E107AAE6 /* DemoViewController.m in Sources */,
-				6039B6F9682820D44A9DBD36 /* ChatViewController.m in Sources */,
+				6039BD49180C377CC1E95F12 /* JMFBChatViewController.m in Sources */,
+				6039B06A635F37A9F86E0B04 /* JMFBRegisterViewController.m in Sources */,
+				6039B22D898604F59A74DEE0 /* JMFBDemoViewController.m in Sources */,
+				6039B0B4DF15D8E3AAED6162 /* JMFBMyAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +470,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					Libs,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC,",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -303,10 +489,17 @@
 		};
 		6039B348753373340E7702B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B160C01894229EC7B21CBD40 /* Pods-Feedback.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Feedback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/../../../../Downloads/IM Lib包(build100)\"/**",
+					"\"${PROJECT_DIR}/\"/**",
+					"\"${PROJECT_DIR}/\"/**",
+					"\"${PROJECT_DIR}/../../../../Downloads/IM Lib包(build100)\"/**",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -328,10 +521,17 @@
 		};
 		6039B8EB475F1D1C25FF8D25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A4951D02F2410062F6F76B /* Pods-Feedback.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Feedback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/../../../../Downloads/IM Lib包(build100)\"/**",
+					"\"${PROJECT_DIR}/\"/**",
+					"\"${PROJECT_DIR}/\"/**",
+					"\"${PROJECT_DIR}/../../../../Downloads/IM Lib包(build100)\"/**",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -387,11 +587,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					Libs,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Libs";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC,",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Libs";
 			};
 			name = Debug;
 		};
@@ -405,6 +616,7 @@
 				6039B8EB475F1D1C25FF8D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6039B64925434CCDD26438D8 /* Build configuration list for PBXProject "Feedback" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +634,7 @@
 				6039BBFC0F14B3A810C3C45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

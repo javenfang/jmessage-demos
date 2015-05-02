@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+
+target 'Feedback' do
+    pod 'MBProgressHUD', '~> 0.9.1'
+
+end
+
+target 'FeedbackTests' do
+
+end
+

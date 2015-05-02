@@ -8,6 +8,7 @@
 
 
 #import "AppDelegate.h"
+#import "JMSGService.h"
 
 
 @interface AppDelegate ()
@@ -23,6 +24,16 @@
         didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSLog(@"action - appDelegate:didFinishLaunchingWithOptions");
+
+    UIWindow *window = self.window;
+    [window makeKeyAndVisible];
+    NSLog(window.description);
+
+    [JMSGService setupJMessage:launchOptions
+                        appKey:THIS_APPKEY
+                       channel:@"Javen"
+              apsForProduction:FALSE category:nil];
+
     return YES;
 }
 

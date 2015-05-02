@@ -5,7 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ChatViewController : UIViewController
+@interface JMFBChatViewController : UIViewController
 
 
 @end

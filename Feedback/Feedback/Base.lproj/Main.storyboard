@@ -7,7 +7,7 @@
         <!--Demo-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Demo" id="BYZ-38-t0r" customClass="DemoViewController" sceneMemberID="viewController">
+                <viewController title="Demo" id="BYZ-38-t0r" customClass="JMFBDemoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -36,15 +36,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="jXj-C7-ngl"/>
+                    <connections>
+                        <segue destination="oyr-ZO-xul" kind="show" id="s6X-nW-POU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="940" y="-430"/>
+            <point key="canvasLocation" x="666" y="-480"/>
         </scene>
         <!--Chat-->
         <scene sceneID="cRu-XM-v2P">
             <objects>
-                <viewController title="Chat" id="2FO-CQ-n61" customClass="ChatViewController" sceneMemberID="viewController">
+                <viewController title="Chat" id="2FO-CQ-n61" customClass="JMFBChatViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LLM-Bi-QEi"/>
                         <viewControllerLayoutGuide type="bottom" id="Heh-HH-c0i"/>
@@ -57,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w1w-cG-1i7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="208" y="-376"/>
+            <point key="canvasLocation" x="1416" y="-480"/>
         </scene>
         <!--JMessage Feedback-->
         <scene sceneID="ipY-2J-aE5">
@@ -75,7 +78,42 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wKM-bv-xYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128" y="-430"/>
+            <point key="canvasLocation" x="-114" y="-480"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="6HK-jT-xxk">
+            <objects>
+                <viewController storyboardIdentifier="Register" title="Register" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oyr-ZO-xul" customClass="JMFBRegisterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y96-62-Msn"/>
+                        <viewControllerLayoutGuide type="bottom" id="rvg-OU-284"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1fe-n6-QpR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nE-xu-CGu">
+                                <rect key="frame" x="87" y="119" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HBS-cG-eax">
+                                <rect key="frame" x="197" y="116" width="256" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Username"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="UsernameTextField" destination="HBS-cG-eax" id="hFn-kN-f8a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8T5-1h-3Bm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="666" y="297"/>
         </scene>
     </scenes>
 </document>

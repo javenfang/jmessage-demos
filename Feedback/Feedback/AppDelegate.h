@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
+#import "JMFBConfig.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
